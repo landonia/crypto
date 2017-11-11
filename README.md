@@ -29,7 +29,7 @@ It consists two main parts:
     "github.com/landonia/crypto/bip39"
   )
 
-	func main() {
+  func main() {
 
     // You can generate a new random entropy - acceptable bits 128 - 256 increments of 32
     entropy, err := bip39.GenerateRandomEntropy(bits)
