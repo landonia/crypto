@@ -90,8 +90,8 @@ type Seed []byte
 
 // GenerateSeed will use the PBKDF2 to generate a hash (using the SHA512 hash)
 // and performing 2048 iterations.
-func GenerateSeed(password, salt string) Seed {
-	return pbkdf2.Key([]byte(password), []byte("mnemonic"+salt), 2048, 64, sha512.New)
+func GenerateSeed(mnemonics, passphrase string) Seed {
+	return pbkdf2.Key([]byte(mnemonics), []byte("mnemonic"+passphrase), 2048, 64, sha512.New)
 }
 
 // String will print the Entropy as a string

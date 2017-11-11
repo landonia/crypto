@@ -51,8 +51,11 @@ It consists two main parts:
     mnemonics.JoinWords() // will create the real mnemonics string
     mnemonics.String() // calls the JoinWords() function and is there to print pretty string
 
-    // From here you can generate the seed to use in a deterministic wallet
+    // From here you can generate the Seed to use in a deterministic wallet directly from the Mnemonic
     seed := mnemonics.GenerateSeed("passphrase is optional")
+
+    // If you just have the mnemonic string of words and passphrase you can generate the Seed
+    seed = bip39.GenerateSeed("army van defense carry jealous true garbage claim echo media make crunch", "optional passphrase")
 
     // Seed is wrapper around a byte array that contains the 512bit seed
     seed.ToHex() // will output the seed as a Hexadecimal string
