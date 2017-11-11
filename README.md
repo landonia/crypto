@@ -8,9 +8,10 @@ Provides crypto packages allowing you to create crypto wallets.
 ## Overview
 
 Provides implementations of BIP standards for creating crypto wallets/applications.
-It will also contain other code that doesnt follow any BIP standard, but can be useful.
+It will also contain other useful utilities outside of any BIP standard.
+
 I'm implementing my own crypto apps and I thought that implementing each part myself
-helps me to learn how it all works.
+would help me to learn how it all works together.
 
 ### BIP-39
 
