@@ -18,7 +18,7 @@ An implementation of a mnemonic code or mnemonic sentence for the generation of 
 
 It consists two main parts:
 
-1. Generate the mnemonic words using the provided key and convert it into a binary seed. This seed can be later used to generate deterministic wallets using BIP-0032 or similar methods. The accepted range of entropy is 128 - 256 bits.
+1. Generate the mnemonic words using the entropy and convert it into a binary seed. This seed can be later used to generate deterministic wallets using BIP-0032 or similar methods. The accepted range of entropy is 128 - 256 bits (ENT/32).
 2. Provide the seed generator that takes the mnemonics (and optional passphrase) to use within deterministic wallets.
 
 #### BIP-39 Example
