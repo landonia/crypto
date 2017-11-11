@@ -24,10 +24,10 @@ It consists two main parts:
 ```go
   package main
 
-	import (
-		"flag"
-		"github.com/landonia/crypto/bip39"
-	)
+  import (
+    "flag"
+    "github.com/landonia/crypto/bip39"
+  )
 
 	func main() {
 
@@ -62,7 +62,7 @@ It consists two main parts:
 
     // Then easily recreate the Seed (which is a []byte wrapper)
     seed = hex.ToSeed()
-	}
+  }
 ```
 
 ## Installation
