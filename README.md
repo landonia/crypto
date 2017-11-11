@@ -15,7 +15,8 @@ would help me to learn how it all works together.
 
 ### BIP-39
 
-An implementation of a mnemonic code or mnemonic sentence for the generation of deterministic wallets (BIP-39). It will create (or recreate from a group of easy to remember words.
+An implementation of a mnemonic code or mnemonic sentence for the generation of deterministic wallets (BIP-39).
+It can create new mnemonics using random entropy or from using an existing entropy.
 
 It consists two main parts:
 
