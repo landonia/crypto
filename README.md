@@ -1,6 +1,7 @@
 # crypto
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/landonia/crypto)](https://goreportcard.com/report/github.com/landonia/crypto)
+[![GoDoc](https://godoc.org/github.com/landonia/crypto?status.svg)](https://godoc.org/github.com/landonia/crypto)
 
 Provides crypto packages allowing you to create crypto wallets.
 
